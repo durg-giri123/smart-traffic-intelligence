@@ -17,10 +17,10 @@ st.set_page_config(
 # ==========================================
 # LOAD DATA
 # ==========================================
-df = pd.read_csv("project/data/events.csv")
+df = pd.read_csv("data/events.csv")
 
 model = joblib.load(
-    "project/models/severity_model.pkl"
+    "models/severity_model.pkl"
 )
 
 # ==========================================
